@@ -12,9 +12,9 @@ h6 {
   @include heading-font;
 }
 
-// Custom Horizontal Rule with Star Icon
-hr.star-light,
-hr.star-dark {
+// Custom Horizontal Rule with Lines
+hr.line-light,
+hr.line-dark {
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -24,29 +24,122 @@ hr.star-dark {
   margin-bottom: 2.5rem;
 }
 
-hr.star-light:after,
-hr.star-dark:after {
+hr.line-light:after,
+hr.line-dark:after {
   position: relative;
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
+  content: '\f02a';
   font-family: FontAwesome;
   font-size: 2em;
 }
 
-hr.star-light {
+hr.line-light {
   border-color: $white;
 }
-hr.star-light:after {
+hr.line-light:after {
   color: $white;
   background-color: $primary;
 }
 
-hr.star-dark {
+hr.line-dark {
   border-color: $secondary;
 }
-hr.star-dark:after {
+hr.line-dark:after {
+  color: $secondary;
+  background-color: white;
+}
+
+// Custom Horizontal Rule with circle
+hr.circle-light,
+hr.circle-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+hr.circle-light:after,
+hr.circle-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f140';
+  font-family: FontAwesome;
+  font-size: 2em;
+}
+
+hr.circle-light {
+  border-color: $white;
+}
+hr.circle-light:after {
+  color: $white;
+  background-color: $primary;
+}
+
+hr.circle-dark {
+  border-color: $secondary;
+}
+hr.circle-dark:after {
+  color: $secondary;
+  background-color: white;
+}
+
+// Section Padding Settings
+section {
+  padding: 6rem 0;
+  h2 {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  @media (min-width: 992px) {
+    h2 {
+      font-size: 3rem;
+      line-height: 2.5rem;
+    }
+  }
+}
+
+// Custom Horizontal Rule with sin
+hr.sin-light,
+hr.sin-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+hr.sin-light:after,
+hr.sin-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f1a3';
+  font-family: FontAwesome;
+  font-size: 2em;
+}
+
+hr.sin-light {
+  border-color: $white;
+}
+hr.sin-light:after {
+  color: $white;
+  background-color: $primary;
+}
+
+hr.sin-dark {
+  border-color: $secondary;
+}
+hr.sin-dark:after {
   color: $secondary;
   background-color: white;
 }

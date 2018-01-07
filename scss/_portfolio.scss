@@ -1,11 +1,12 @@
 // Styling for the portfolio section
 .portfolio {
+  margin-top: 0px;
   margin-bottom: -15px;
   .portfolio-item {
     position: relative;
     display: block;
     max-width: 25rem;
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
     .portfolio-item-caption {
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s;
@@ -20,11 +21,24 @@
       }
     }
   }
+
+  .portfolio-title {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background-color: $secondary;
+  }
+
+  @media (min-width: 992px) {
+    margin-top: 25px;
+  }
+
   @media (min-width: 576px) {
     margin-bottom: -30px;
-    .portfolio-item {
-      margin-bottom: 30px;
-    }
+    // .portfolio-item {
+    //   margin-bottom: 30px;
+    // }
   }
 }
 
