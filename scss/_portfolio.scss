@@ -20,14 +20,14 @@
         font-size: 1.5rem;
       }
     }
-  }
 
-  .portfolio-title {
-    padding-top:10px;
-    padding-bottom:10px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    background-color: $secondary;
+    .portfolio-title {
+      padding-top:10px;
+      padding-bottom:10px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background-color: $secondary;
+    }
   }
 
   @media (min-width: 992px) {
@@ -73,5 +73,12 @@
         font-size: 3rem;
       }
     }
+  }
+
+  .portfolio-modal-item-title {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 1rem;
+    font-weight: 600;
   }
 }

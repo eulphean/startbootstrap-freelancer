@@ -243,12 +243,12 @@ header.masthead {
         opacity: 1; }
       .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
         font-size: 1.5rem; }
-  .portfolio .portfolio-title {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    background-color: #2C3E50; }
+    .portfolio .portfolio-item .portfolio-title {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background-color: #2C3E50; }
   @media (min-width: 992px) {
     .portfolio {
       margin-top: 25px; } }
@@ -281,6 +281,12 @@ header.masthead {
     margin: 3rem calc(3rem - 8px); }
     .portfolio-modal .portfolio-modal-dialog h2 {
       font-size: 3rem; } }
+
+.portfolio-modal .portfolio-modal-item-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600; }
 
 .floating-label-form-group {
   position: relative;
