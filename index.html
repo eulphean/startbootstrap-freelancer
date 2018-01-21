@@ -393,22 +393,16 @@
             <div class="row mb-5">
               <div class="col-md-6 col-lg-6">
                 <img class="img-fluid" src="img/portfolio/40.png"/>
-                <div class="portfolio-modal-item-title my-auto w-100 text-center">
-                    40
-                </div>
+                <p class="text-justify text-center">40</p>
               </div>
               <div class="col-md-6 col-lg-6">
                 <img class="img-fluid" src="img/portfolio/45.png"/>
-                <div class="portfolio-modal-item-title my-auto w-100 text-center">
-                    45
-                </div>
+                <p class="text-justify text-center">45</p>
               </div>
             </div>
             <div class="mb-5">
                 <img class="img-fluid" src="img/portfolio/exhibition.png"/>
-                <div class="portfolio-modal-item-title my-auto w-100 text-center">
-                    45 & 40 exhibited at SAIC. 
-                </div>
+                <p class="text-justify text-center">45 & 40 exhibited at SAIC.</p>
             </div>
             <a class="btn btn-primary btn-med rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
@@ -430,9 +424,12 @@
             <div class="col-lg-12 mx-auto">
               <h3 class="text-secondary text-uppercase mb-0">Github Workshop</h3>
               <hr class="sin-dark mb-5">
-              <p class="mb-5 text-justify">During Fall 2017 at SAIC, I conducted a workshop on how to use Github for versioning creative coding projects. I used Daniel Shiffman's Github for Poets videos as a reference to prepare this workshop. We started by covering the difference between Git and Github and walked through the web interface to create repositories, make commits, create pull requests and observe user activity. Then we dove into the Terminal and covered Git commands and Git workflows to organize and version the projects. Below is the deck presented for the workshop along with the poster. 
+              <p class="mb-5 text-justify">During Fall 2017 at SAIC, I conducted a workshop on how to use Github for versioning creative coding projects. I used Daniel Shiffman's Github for Poets videos as a reference to prepare this workshop. We started by covering the difference between Git and Github and walked through the web interface to create repositories, make commits, create pull requests and observe user activity. Then we dove into the Terminal and covered Git commands and Git workflows to organize and version the projects.
               </p>
-              <img class="img-fluid col-md-8 col-lg-6 mb-5" src="img/portfolio/github.png" alt="" />
+              <div class="row mb-5">
+                  <img class="img-fluid col-md-3 col-lg-6 h-50 mb-3" src="img/portfolio/github.png" alt="" />
+                  <img class="img-fluid col-md-3 col-lg-6 h-50 mb-3" src="img/portfolio/githubAmay.png" alt="" />
+              </div>
               <div class="embed-responsive embed-responsive-16by9 mb-5">
                 <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vSMh-ik0A6uiJ8CAiKJUoQJgfZ_d3CeFxZVrMlM25UcuHNQultUenDZDzaGedIm7lgOrOA_tDLVlOBh/embed?start=true&loop=true&delayms=60000" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
               </div>
@@ -492,13 +489,24 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-12 mx-auto">
-              <h3 class="text-secondary text-uppercase mb-0">Skype</h3>
+              <h3 class="text-secondary text-uppercase mb-0">Tree of Life</h3>
               <hr class="sin-dark mb-5">
-              <p class="mb-5 text-justify">Earthlens is an augmented reality application to help scientists, students, and enthusiasts to immersively uncover and predict the health of our planet.<br />The scenario we prototyped was a table-top experience of Great Barrier Reef, where a user interactively experienced changes in the health of corals in past years. By creating machine learning models with 50 years of data for the reef’s health, data science interns created prediction equations for calcification and density of corals in the future. While leading the development of the prototype in Unity, I worked on visual depiction of two primary scenes and their transitions, Hololens gestures, and integrating contributions from two other developers, who hooked machine learning models into the scenes.
+              <p class="mb-5 text-justify">Tree of Life is an audio-visual performance of the unravelling of a tree over time. This work is inspired from philosophical parallels between the growth of a tree and the human body, where different stages of a tree's growth are represented by a visual and sonic landscape. In the initial stages of its growth, a tree receives nutrients like water and sunlight, just how a child grows and receives visual and audial stimulation from the environment. This information is responsible for forming a child's brain and influencing his/her growth. Once a child starts becoming an adult, he/she starts meeting various people and develops certain relationships. These relationships are like branches of a tree that bear fruits and flowers with time, just how human relationships flourish and reap new connections. Eventually, the tree completes its life and becomes one with the ground from where it grew. Similarly, human body completes its soujourn journey and perishes like it's destined to be.<br />This performance creates a unique soundscape by combining fabricated metal objects with technology, body gestures and visuals to expess this growth process from beginning to end. It wishes to explore the sonic virtuality that imagines an audio language to express the performer's stored experiences and memories of his upbringing with respect to the growth of a tree.<br />With the metal dishes acting as external tongues, the role of these body gestures is no different than the mind, which gives words to our expressions and uses vocal organs to produce sound. Here, the body gestures are converted into intellect, and metallic objects are converted into vocal organs that express this tree of life. 
               </p>
               <div class="mb-5">
-                <iframe src="https://player.vimeo.com/video/197704900" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                <p><a href="https://vimeo.com/197704900">Earthlens</a> from <a href="https://vimeo.com/amaykataria">Amay Kataria</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                <img class="img-fluid mb-3" src="img/portfolio/tree/brainstorm.png"/>
+                <p class="text-justify text-center">Flow of thoughts that led to the ideation of Tree of Life. The goal was to create an audio-visual system for self-expression.</p>
+              </div>
+              <div class="mb-5">
+                <img class="img-fluid col-md-12 col-lg-8 h-100 mb-3" src="img/portfolio/tree/tech.png"/>
+                <p class="text-justify">The technology stack for this project utilized <a href="https://github.com/openframeworks/openFrameworks">OpenFrameworks</a> for development. The audio was collected using microphones from the metallic dishes and routed to Ableton. With a custom TouchOSC interface, OSC messages for audio and visual commands were sent to an OpenFrameworks program running on a laptop. Audio commands were processed and sent to Ableton as MIDI messages to control the sound. Visual commands were forwarded to another OpenFrameworks program as OSC messages running on a machine across the room, which drove the visuals on the screen. <a href="https://github.com/eulphean/TouchInstrument" >Here's</a> the entire code for this project. 
+              </div>
+              <div class="mb-5">
+                <div class="row">
+                  <img class="col-md-6 col-lg-6 h-100 mb-3" src="img/portfolio/tree/audio.png"/>
+                  <img class="col-md-6 col-lg-6 h-100 mb-3" src="img/portfolio/tree/video.png"/>
+                </div>
+                <p class="text-justify text-center">Custom TouchOSC interface running on an iPad for audio (left) control and video (right) effects.</p>
               </div>
               <a class="btn btn-primary btn-med rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
