@@ -169,6 +169,11 @@ section {
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem; }
+  #mainNav .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 @media (min-width: 992px) {
   #mainNav {

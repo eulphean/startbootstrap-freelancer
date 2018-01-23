@@ -49,6 +49,21 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $( window ).resize(function() {
+    if ($(window).width() <= 992) {
+      console.log("Test");
+      $("#navbarTitle").removeClass("title");
+      $("#navbarTitle").removeClass("navbar-nav");
+      $("#navbarTitle").removeClass("ml-auto");
+      $("#navbarTitle").addClass("text-center");
+    } else {
+      $("#navbarTitle").addClass("title");
+      $("#navbarTitle").addClass("navbar-nav");
+      $("#navbarTitle").addClass("ml-auto");
+      $("#navbarTitle").removeClass("text-center");
+    }
+  });
+
   // Modal popup$(function () {
   $('.portfolio-item').magnificPopup({
     type: 'inline',
