@@ -90,21 +90,6 @@ hr.circle-dark:after {
   background-color: white;
 }
 
-// Section Padding Settings
-section {
-  padding: 6rem 0;
-  h2 {
-    font-size: 2.25rem;
-    line-height: 2rem;
-  }
-  @media (min-width: 992px) {
-    h2 {
-      font-size: 3rem;
-      line-height: 2.5rem;
-    }
-  }
-}
-
 // Custom Horizontal Rule with sin
 hr.sin-light,
 hr.sin-dark {

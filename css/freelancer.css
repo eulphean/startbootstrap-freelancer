@@ -83,16 +83,6 @@ hr.circle-dark:after {
   color: #2C3E50;
   background-color: white; }
 
-section {
-  padding: 6rem 0; }
-  section h2 {
-    font-size: 2.25rem;
-    line-height: 2rem; }
-  @media (min-width: 992px) {
-    section h2 {
-      font-size: 3rem;
-      line-height: 2.5rem; } }
-
 hr.sin-light,
 hr.sin-dark {
   max-width: 15rem;
